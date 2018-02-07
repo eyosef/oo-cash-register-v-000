@@ -20,6 +20,7 @@ class CashRegister
     self.total += price * quantity
     if quantity > 1
       then (@@items << item)quantity.times
+    end
     # prev_total = price * quantity
     # final_total = prev_total + (price * quantity)
     # final_total
