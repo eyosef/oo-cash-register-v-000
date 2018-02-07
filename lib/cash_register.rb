@@ -10,6 +10,7 @@ class CashRegister
 
   def total
     current_total=[]
+    current_total << total
   end
 
 end
