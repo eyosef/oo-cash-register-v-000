@@ -14,7 +14,7 @@ class CashRegister
 
   def add_item(item, price, quantity=1)
     previous_total = self.total = price * quantity
-    @total
+    @total = previous_total + ()
   end
 
 end #class
