@@ -21,7 +21,7 @@ class CashRegister
     quantity.times do
       @@items << item
     end
-    binding.pry
+
 
     # prev_total = price * quantity
     # final_total = prev_total + (price * quantity)
