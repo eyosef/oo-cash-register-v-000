@@ -1,7 +1,7 @@
 require 'pry'
 class CashRegister
 
-  attr_accessor :total, :discount, :prev_total, :final_total
+  attr_accessor :total, :discount, :discounted_total, :prev_total, :final_total
 
   def initialize(discount=0)
     @discount = discount
@@ -22,6 +22,7 @@ class CashRegister
   end
 
   def apply_discount
+
   end
 
 end #class
