@@ -21,11 +21,6 @@ class CashRegister
     quantity.times do
       @@items << item
     end
-
-
-    # prev_total = price * quantity
-    # final_total = prev_total + (price * quantity)
-    # final_total
   end
 
   def apply_discount
