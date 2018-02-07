@@ -28,8 +28,11 @@ class CashRegister
     return "There is no discount to apply." if discount <= 0
   end
 
-  def items 
-  end 
-  
+  def items
+  end
+
+  def void_last_transaction
+  end
+
 
 end #class
