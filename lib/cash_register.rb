@@ -17,4 +17,4 @@ class CashRegister
     self.total = price * quantity
   end
 
-end
+end #class
