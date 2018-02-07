@@ -18,6 +18,7 @@ class CashRegister
     final_price = price * quantity.to_f
     #final_price = price*quantity if quantity != nil
     @total = @total + final_price
+    binding.pry
 
   end
 
