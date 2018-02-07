@@ -19,7 +19,8 @@ class CashRegister
     # prev_total = price * quantity
     # final_total = prev_total + (price * quantity)
     # final_total
-
   end
+
+
 
 end #class
