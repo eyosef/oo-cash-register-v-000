@@ -35,6 +35,7 @@ class CashRegister
 
   def void_last_transaction
      @total - @@prices[-1]
+     binding.pry
   end
 
 
