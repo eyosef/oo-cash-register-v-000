@@ -16,12 +16,12 @@ class CashRegister
 
   def add_item(item, price, quantity=1)
     self.total += price * quantity
-    prev_total = price * quantity
-
-
-    final_total = prev_total + (price * quantity)
-    final_total
-    #new_total = self.total + (price * quantity)
+    # prev_total = price * quantity
+    # 
+    # 
+    # final_total = prev_total + (price * quantity)
+    # final_total
+    
   end
 
 end #class
