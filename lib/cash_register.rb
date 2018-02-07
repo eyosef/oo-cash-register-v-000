@@ -9,7 +9,7 @@ class CashRegister
     @total = total || 0
     @prev_total = 0 #may not need
     @final_total = 0 #may not need
-    @items = []
+    @items = items
   end
 
   def total
@@ -30,7 +30,7 @@ class CashRegister
   end
 
   def items
-    
+
   end
 
   def void_last_transaction
