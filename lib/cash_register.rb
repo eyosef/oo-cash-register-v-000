@@ -28,4 +28,8 @@ class CashRegister
     return "There is no discount to apply." if discount <= 0
   end
 
+  def items 
+  end 
+  
+
 end #class
