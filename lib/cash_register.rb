@@ -17,6 +17,7 @@ class CashRegister
     @total = price * quantity
     @total
     while quantity < quantity.count
+      @total = price * quantity
   end
 
 end
