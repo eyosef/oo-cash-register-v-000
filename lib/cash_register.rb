@@ -21,6 +21,7 @@ class CashRegister
     self.total += price * quantity
     quantity.times {@@items << item}
     @@prices << price
+    binding.pry
   end
 
   def apply_discount
