@@ -18,6 +18,7 @@ class CashRegister
   end
 
   def add_item(item, price, quantity=1)
+    list_of_items << item
     self.total += price * quantity
     # prev_total = price * quantity
     # final_total = prev_total + (price * quantity)
