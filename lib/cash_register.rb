@@ -9,7 +9,7 @@ class CashRegister
     @total = total || 0
     @prev_total = 0 #may not need
     @final_total = 0 #may not need
-    @items = items
+    @@items = items
     list_of_items = []
   end
 
