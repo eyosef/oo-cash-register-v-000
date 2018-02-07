@@ -18,6 +18,7 @@ class CashRegister
     self.total = price * quantity
     prev_total = price * quantity
     final_total = prev_total + (price * quantity)
+    final_total
     #new_total = self.total + (price * quantity)
   end
 
