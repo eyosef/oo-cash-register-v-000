@@ -20,7 +20,7 @@ class CashRegister
   def add_item(item, price, quantity=1)
     self.total += price * quantity
     quantity.times {@@items << item}
-    @@last_transac << price[-1]
+    @last_transac << price[-1]
   end
 
   def apply_discount
