@@ -19,6 +19,7 @@ class CashRegister
     prev_total = price * quantity
     final_total = prev_total + (price * quantity)
     final_total
+    binding.pry
     #new_total = self.total + (price * quantity)
   end
 
