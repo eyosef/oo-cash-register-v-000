@@ -9,8 +9,7 @@ class CashRegister
   end
 
   def total
-    current_total=[]
-    current_total << @total
+    @total
   end
 
 end
