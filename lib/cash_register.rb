@@ -25,6 +25,7 @@ class CashRegister
   def apply_discount
     discounted_total = self.total * discount
     discounted_total
+    binding.pry
   end
 
 end #class
