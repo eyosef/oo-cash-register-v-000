@@ -9,6 +9,7 @@ class CashRegister
     @total = total || 0
     @prev_total = 0 #may not need
     @final_total = 0 #may not need
+    @@last_transac = 0
     @@items = []
   end
 
