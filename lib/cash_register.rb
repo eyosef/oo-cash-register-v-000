@@ -6,6 +6,7 @@ class CashRegister
   def initialize(discount=0)
     @discount = discount
     @total = total || 0
+    @prev_total = 0
   end
 
   def total
