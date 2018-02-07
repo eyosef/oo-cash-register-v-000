@@ -17,7 +17,6 @@ class CashRegister
     final quantity =
     @total = price * quantity
     @total
-    #quantity.to_f
   end
 
 end
