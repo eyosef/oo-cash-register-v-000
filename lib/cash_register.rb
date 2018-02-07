@@ -31,7 +31,7 @@ class CashRegister
 
   def items
     list_of_items = []
-
+    list_of_items << items
   end
 
   def void_last_transaction
