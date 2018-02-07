@@ -17,7 +17,7 @@ class CashRegister
     quantity ||= nil
     final_price = price * quantity.to_f
     @total = price * quantity.to_f
-    binding.pry
+    @total
   end
 
 end
