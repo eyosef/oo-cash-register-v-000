@@ -19,8 +19,8 @@ class CashRegister
   def add_item(item, price, quantity=1)
     self.total += price * quantity
     if quantity > 1
-      then @@items << item
-    end 
+      then @@items << item quantity_times
+    end
     # prev_total = price * quantity
     # final_total = prev_total + (price * quantity)
     # final_total
