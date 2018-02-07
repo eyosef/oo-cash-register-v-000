@@ -23,7 +23,7 @@ class CashRegister
   end
 
   def apply_discount
-
+    discounted_total =
   end
 
 end #class
