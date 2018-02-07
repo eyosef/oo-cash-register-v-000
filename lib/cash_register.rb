@@ -16,7 +16,6 @@ class CashRegister
   def add_item(item, price, quantity)
     quantity ||= nil
     #final_price = price * quantity
-    #final_price = price*quantity if quantity != nil
     @total = @total + final_price
     binding.pry
 
