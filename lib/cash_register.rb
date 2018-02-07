@@ -10,6 +10,8 @@ class CashRegister
     @prev_total = 0 #may not need
     @final_total = 0 #may not need
     @items = items
+    list_of_items = []
+    list_of_items << @items
   end
 
   def total
