@@ -11,7 +11,6 @@ class CashRegister
     @final_total = 0 #may not need
     @items = items
     list_of_items = []
-    list_of_items << @items
   end
 
   def total
@@ -20,6 +19,7 @@ class CashRegister
 
   def add_item(item, price, quantity=1)
     self.total += price * quantity
+        list_of_items << @items
     # prev_total = price * quantity
     # final_total = prev_total + (price * quantity)
     # final_total
