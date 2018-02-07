@@ -2,5 +2,7 @@ class CashRegister
 
   attr_accessor :new
 
-  
-end 
+  def initialize
+  end
+
+end
