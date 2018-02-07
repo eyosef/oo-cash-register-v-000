@@ -30,6 +30,7 @@ class CashRegister
   end
 
   def items
+    list_of_items = []
 
   end
 
