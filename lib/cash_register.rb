@@ -23,8 +23,7 @@ class CashRegister
   end
 
   def apply_discount
-    discounted_total = total - (total * discount / 100) #does equal 800
-    discounted_total
+    @total = total - (total * discount / 100) #does equal 800
   end
 
 end #class
