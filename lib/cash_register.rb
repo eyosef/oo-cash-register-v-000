@@ -34,7 +34,7 @@ class CashRegister
   end
 
   def void_last_transaction
-     total - @@prices[-1]
+     @total - @@prices[-1]
   end
 
 
