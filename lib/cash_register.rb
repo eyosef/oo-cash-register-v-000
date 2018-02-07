@@ -7,6 +7,7 @@ class CashRegister
     @discount = discount
     @total = total || 0
     @prev_total = 0
+    @final_total = 0
   end
 
   def total
