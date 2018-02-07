@@ -2,7 +2,7 @@ class CashRegister
 
   attr_accessor :new, :total, :discount
 
-  def initialize
+  def initialize(discount=nil)
     @discount = discount
     @new = new
     @total = 0
